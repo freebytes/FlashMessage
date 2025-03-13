@@ -8,6 +8,10 @@ FlashMessage is designed for use with Boostrap 3.4.1+ or Toastr.  You must inclu
 
 ## Setting Up FlashMessage
 
+### Installing
+
+You can grab the package from https://www.nuget.org/packages/FlashMessage/ if you want to install using NuGet in your C# Project.
+
 ### Update \_ViewImports.cshtml for Tag Helper
 
 Your \_ViewImports.cshtml file must contain the following for the Razor Page to be able to replace the <flash></flash> tags.
