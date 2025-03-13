@@ -11,6 +11,8 @@
     <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
     <PackageTags>Toastr;Sipen;Flash Messages;FlashMessage;Ruby on Rails Flash;Flash</PackageTags>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Authors>Freebytes</Authors>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

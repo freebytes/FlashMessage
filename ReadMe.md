@@ -21,6 +21,16 @@ Your \_ViewImports.cshtml file must contain the following for the Razor Page to 
 
 After the NuGet Package is installed, make sure you have a reference to either Boostrap 3.4.1+ or Toastr in your HTML depending on which you prefer to use.  You must have JQuery available for this to work, and that must be loaded prior to loading Toastr.
 
+The \_Layout.cshtml head section should contain the following:
+
+```
+<link href="~/css/toastr.min.css" rel="stylesheet" type="text/css" />
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/js/toastr.min.js"></script>
+```
+
+You are recommended to have both Toastr and Bootstrap in your project layout pages, so you will have the freedom to use both on your pages.
+
 ### Register Session in your Program.cs
 
 Using the Session is necessary for FlashMessage.  The session will always use the term "FlashMessages" as the key.
